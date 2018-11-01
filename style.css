@@ -1,0 +1,84 @@
+.navbar-inverse {
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-style: outset;
+  border-bottom-width: 5;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-default .container-fluid {
+  color: white;
+}
+
+.user-posts {
+  list-style: none;
+}
+
+.user-posts div {
+  border-style: outset;
+  border-color: rgba(46,123,199);
+  background-color: rgba(75, 100, 255);
+}
+
+.user-posts .post-top {
+  height: 350px;
+  border-bottom-width: 0;
+}
+
+.user-posts .post-bottom {
+  border-style: outset;
+  border-color: rgba(46,123,199);
+  border-top-width: 0;
+  font-size: 12pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+  padding-bottom: 10px;
+}
+.user-posts .post-bottom  a{
+  color: white;
+}
+
+.user-posts .post-top img {
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  background-color: rgba(7, 48, 140);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#feed {
+  padding-top: 5%;
+}
+
+#left-column {
+  position: fixed;
+}
+
+.cat {
+  width: 100%;
+  display:block;
+  margin-top: 50%;
+}
+
+#mid-column {
+  left:25%;
+}
+#right-column {
+  position: fixed;
+  right: 0;
+}
+
+.bongo {
+  width: 100%;
+  display: block;
+}
