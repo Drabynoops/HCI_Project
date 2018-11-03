@@ -1,0 +1,132 @@
+a:not([href]) {
+    cursor: pointer;
+  }
+  .navbar-brand {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16pt;
+    font-weight: bolder;
+  }
+  
+  .navbar-inverse {
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-style: outset;
+    border-bottom-width: 5;
+    position: fixed;
+    top: 0;
+  }
+  
+  .navbar-default .container-fluid {
+    color: white;
+  }
+  
+  .user-posts {
+    list-style: none;
+  }
+  
+  .user-posts div {
+    border-style: outset;
+    border-color: rgba(46,123,199);
+    background-color: rgba(75, 100, 255);
+  }
+  
+  .profile-pic {
+    height: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  
+  .inside-post {
+    border-width: 0;
+    background: transparent !important;
+  }
+  
+  .post-time {
+    border-bottom-width: 0;
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  .time-since-post {
+    background: transparent !important;
+    border-width: 0;
+    padding-top: 3%;
+    margin-left: 5%;
+  }
+  
+  .post-top {
+    height: 300px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+  }
+  
+  .post-bottom {
+    border-top-width: 0;
+    font-size: 12pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  li {
+    padding-bottom: 10px;
+  }
+  .form {
+    font-size: 12pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+  }
+  
+  .user-posts .post-bottom  a{
+    color: white;
+  }
+  
+  .post-top img {
+    height: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  
+  body {
+    background-color: rgba(7, 48, 140);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  #feed {
+    padding-top: 5%;
+  }
+  
+  #left-column {
+    position: fixed;
+  }
+  
+  #mid-column {
+    left:25%;
+  }
+  
+  #right-column {
+    position: fixed;
+    right: 0;
+  }
+  
+  .cat {
+    width: 100%;
+    display:block;
+    margin-top: 50%;
+  }
+  
+  .bongo {
+    width: 100%;
+    display: block;
+  }
