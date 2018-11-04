@@ -64,7 +64,7 @@ a:not([href]) {
   .post-top {
     vertical-align: middle;
     text-align: center;
-    height: 400px;
+    height: 300px;
     border-top-width: 0;
     border-bottom-width: 0;
   }
@@ -83,6 +83,15 @@ a:not([href]) {
     font-size: 12pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+  }
+
+  .button {
+    padding: 5px 7px;
+    background-color: rgba(7, 48, 140);
+    color: white;
+  }
+  input {
+    color: black;
   }
 
   .input-box {
