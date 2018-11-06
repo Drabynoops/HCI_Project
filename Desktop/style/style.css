@@ -125,3 +125,17 @@ body {
   width: 100%;
   display: block;
 }
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+.user-posts .comment-thread {
+  list-style:none;
+  border-width: 0;
+  background: none;
+}
+a button {
+  text-decoration: none;
+  color: black;
+}
